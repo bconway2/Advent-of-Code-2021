@@ -16,7 +16,6 @@ def part_two(day_input):
     n = 0
     prev3 = 100000
     for num, depth in enumerate(day_input):
-        print(num)
         if num >= 2:
             depth3 = sum(day_input[num-2:num+1])
             if depth3 > prev3:
