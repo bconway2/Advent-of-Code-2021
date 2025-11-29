@@ -23,6 +23,8 @@ def part_two(day_input):
             prev3 = depth3
     return n
 
-d = get_input('input.txt')
-part_one(get_input('input.txt'))
-part_two(get_input('input.txt'))
+if __name__ == "__main__":
+    infile = 'input.txt'
+    d = get_input(infile)
+    print("Part 1:", part_one(d))
+    print("Part 2:", part_two(d))
